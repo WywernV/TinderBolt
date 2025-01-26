@@ -4,8 +4,6 @@ from gpt import *
 from util import *
 
 
-# тут будем писать наш код :)
-
 async def start(update, context):
     dialog.mode = "main"
     text = load_message("main")
